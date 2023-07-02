@@ -49,6 +49,7 @@ p {
 
 .image {
     margin-right: 50px;
+    
 }
 
 button {
@@ -58,6 +59,14 @@ button {
     padding: 5px;
     color: #E5E7E5;
     font-weight: bolder;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    margin: 50px;
 }
 
 .section3 {
@@ -105,3 +114,15 @@ button {
     font-weight: bolder;
 }
 
+.images {
+    display: flex;
+    margin-left: 175px;
+    gap: 100px;
+    text-align: center;
+}
+
+.pic {
+    flex: 1;
+    height: 200px;
+    width: 200px;
+}
